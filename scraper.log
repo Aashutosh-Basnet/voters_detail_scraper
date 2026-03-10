@@ -1502,3 +1502,6 @@
 2026-03-05 11:37:58,564 [INFO] DONE. Total voters: 231809  |  Reg centres scraped: 150
 2026-03-05 11:37:58,565 [INFO] Output: output\voters_इलाम_district17.csv
 2026-03-05 11:37:58,565 [INFO] ============================================================
+2026-03-10 12:38:57,309 [INFO] Nepal Voter List Scraper starting
+2026-03-10 12:38:57,309 [INFO] Target: state=2, district=18 (all municipalities)
+2026-03-10 12:38:57,309 [INFO] Acquiring session cookie from https://voterlist.election.gov.np …
