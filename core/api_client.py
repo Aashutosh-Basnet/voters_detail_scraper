@@ -1,8 +1,8 @@
 import time
 import requests
 import logging
-from config import BASE_URL, INDEX_PROC, VIEW_WARD, HEADERS, MAX_RETRIES, RETRY_BACKOFF, DELAY_BETWEEN_REQUESTS
-from parsers import parse_json_or_html_options
+from .config import BASE_URL, INDEX_PROC, VIEW_WARD, HEADERS, MAX_RETRIES, RETRY_BACKOFF, DELAY_BETWEEN_REQUESTS
+from .parsers import parse_json_or_html_options
 
 log = logging.getLogger(__name__)
 

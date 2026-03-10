@@ -1,9 +1,9 @@
 import sys
 import argparse
 import logging
-from config import LOG_FILE, DEFAULT_STATE, DEFAULT_DISTRICT, DELAY_BETWEEN_REQUESTS
-from api_client import ElectionClient
-from engine import scrape_district, scrape_all
+from core.config import LOG_FILE, DEFAULT_STATE, DEFAULT_DISTRICT, DELAY_BETWEEN_REQUESTS
+from core.api_client import ElectionClient
+from core.engine import scrape_district, scrape_all
 
 def setup_logging():
     fmt = "%(asctime)s [%(levelname)s] %(message)s"

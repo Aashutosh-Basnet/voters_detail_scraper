@@ -1,8 +1,8 @@
 import logging
 from tqdm import tqdm
-from config import STATE_MAP
-from parsers import parse_voter_table
-from storage import load_checkpoint, save_checkpoint, get_csv_writer, is_district_completed
+from .config import STATE_MAP
+from .parsers import parse_voter_table
+from .storage import load_checkpoint, save_checkpoint, get_csv_writer, is_district_completed
 
 log = logging.getLogger(__name__)
 

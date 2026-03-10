@@ -1,7 +1,7 @@
 import csv
 import json
 import logging
-from config import OUTPUT_DIR, CHECKPOINT, CSV_FIELDS
+from .config import OUTPUT_DIR, CHECKPOINT, CSV_FIELDS
 
 log = logging.getLogger(__name__)
 
